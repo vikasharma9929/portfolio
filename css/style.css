@@ -358,7 +358,7 @@ footer p{
         display: none;
     }
     header {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 83%, 0 87%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 83%, 0 85%)
     }
     header nav{
         padding: 1rem;
