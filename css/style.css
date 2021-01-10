@@ -379,7 +379,7 @@ footer p{
         flex-direction: column;
     }
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 89%, 0 93%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 79% 89%, 0 93%);
     }
     .hero .right{
         position: absolute;
