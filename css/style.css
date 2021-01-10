@@ -22,9 +22,15 @@ header{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 87%, 0 90%);
 
 }
-.container{
+.container2{
     max-width: 1152px;
     padding: 0 15px;
+    margin: 0 auto;
+
+}
+.container{
+    max-width: 1152px;
+    padding: 0 14px;
     margin: 0 auto;
 
 }
@@ -342,6 +348,11 @@ footer .socal a{
 footer p{
     color: var(--primary);
 }
+@media(min-width: 1024px){
+    header #main-nav2{
+        display: none;
+    }
+}
 @media(max-width: 1024px){
     header #main-nav{
         display: none;
@@ -349,11 +360,14 @@ footer p{
     header {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 83%, 0 87%);
     }
+    header nav{
+        padding: 1rem;
+    }
     .hero .left img {
         width: 200px;
     }
     .hero .right h6{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .hero .right h1 {
         font-size: 1rem;
@@ -367,10 +381,13 @@ footer p{
         margin-bottom: 2rem;
     }
     .hero{
-        padding-top: 10rem;
+        padding-top: 6rem;
     }
     .services .card-wappers{
         grid-template-columns: repeat(2, 1fr);
+    }
+    section.contact .container {
+        padding-top: 2rem;
     }
     
 }
@@ -379,7 +396,7 @@ footer p{
         flex-direction: column;
     }
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 79% 89%, 0 93%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 89%, 0 93%);
     }
     .hero .right{
         position: absolute;
