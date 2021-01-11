@@ -389,7 +389,10 @@ footer p{
     section.contact .container {
         padding-top: 2rem;
     }
-    
+    section.reviews .slide .img{
+        width: 50%;
+        height: 50%;
+    }    
 }
 @media(max-width: 576px){
     .hero{
